@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Patrick TuGlynn Webd164
+This application has the ability for users to add todos, remove single todos, as well as clear the whole list.
+Todos are saved in local storage.-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Daily To-do List</title>
+</head>
+<body>
+<h1>Welcome to the ultimate to-do list </h1>
+<div>
+    <form>
+        <fieldset>
+            <label for="todo">Enter a to-do:</label>
+            <input type="text" name="todo" id="todo">
+            <button type="submit" onclick="addToDo(event);">Add to-do</button>
+        </fieldset>
+    </form>
+        <p id="message"></p>
+</div>
+<main>
+    <ul id="list"></ul>
+    <button id="clear" onclick="return clearStorage();">Clear List</button>
+</main>
+<footer>
+    <p><small><i>Copyright &copy; 2023 | Patrick TuGlynn</i></small></p>
+</footer>
+</body>
+<script src="index.js"></script>
+</html>

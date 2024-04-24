@@ -1,0 +1,70 @@
+body {
+    background-color: #927f7f;
+    background-image: linear-gradient(to bottom, #fff, #927f7f);
+    min-height: 100vh;
+    overflow: hidden;
+}
+h1 {
+    color: #418447ef;
+    text-align: center;
+}
+form {
+    margin: 1rem;
+    background: #927f7f;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 2em;
+}
+fieldset {
+    border: none;
+}
+label {
+    color: #fff;
+}
+button {
+    border-radius: 2em;
+    padding: .4em;
+}
+#message {
+    color: #884c4c;
+    font: 2rem san-serif;
+    text-align: center;
+}
+main {
+    padding: 1em;
+}
+#list {
+    background-color: #b07575;
+    background-image: linear-gradient(to bottom, #cfa2a2, #b07575);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 2em;
+    margin: 2rem;
+}
+li {
+    color: #ffffff;
+    font: 1.2em sans-serif;
+    margin: .4rem;
+    padding: .2em;
+}
+.delbtn {
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+    margin: 0 1rem;
+    padding: auto
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    main {
+        padding: 1em;
+    }
+    #list {
+        margin: 0
+    }
+    li {
+        font: .8rem;
+    }
+}
